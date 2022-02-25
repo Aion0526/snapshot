@@ -1,10 +1,10 @@
 import { createI18n } from 'vue-i18n';
 import { nextTick } from 'vue';
-import en from '@/locales/default.json';
+import mn from '@/locales/default.json';
 import languages from '@/locales/languages.json';
 import { lsRemove } from '@/helpers/utils';
 
-export let defaultLocale = 'en-US';
+export let defaultLocale = 'mn-MN';
 
 export function getBrowserLocale() {
   if (typeof navigator !== 'undefined') {
@@ -55,7 +55,7 @@ export async function loadLocaleMessages(i18n, locale) {
     lsRemove('locale');
     locale = 'default';
   }
-  if (locale === 'en-US') locale = 'default';
+  if (locale === 'mn-MN') locale = 'default';
 
   try {
     // load locale messages with dynamic import
@@ -76,8 +76,8 @@ const i18n = setupI18n({
   locale: defaultLocale,
   // @ts-ignore
   datetimeFormats,
-  messages: { 'en-US': en },
-  fallbackLocale: 'en-US'
+  messages: { 'mn-MN': mn },
+  fallbackLocale: 'mn-MN'
 });
 
 export default i18n;

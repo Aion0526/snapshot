@@ -37,7 +37,7 @@ async function handleLogin(connector) {
     >
       {{ $t('demoSite') }}
     </div>
-    <nav id="topnav" class="border-b w-full bg-black">
+    <nav id="topnav" class="border-b w-full bg-black" style="border-bottom-width:0.5px;border-bottom-color:red;">
       <Container>
         <div class="flex items-center" style="height: 78px">
           <div class="flex-auto flex items-center">
@@ -46,7 +46,11 @@ async function handleLogin(connector) {
               class="flex items-center"
               style="font-size: 24px"
             >
-              snapshot
+              <img
+                src="https://worker.snapshot.org/mirror?img=https%3A%2F%2Fmiro.medium.com%2Ffit%2Fc%2F176%2F176%2F1*CUVy-GUce0I2iU0kfXOngQ.png"
+                style="max-height:50px;height:10vh;border-radius:16px"
+                alt="Home"
+              />{{ '\xa0' }} Offchain Governance
             </router-link>
           </div>
           <div :key="web3.account">

@@ -1,5 +1,5 @@
 {
-  "searchPlaceholder": "Хайх",
+  "searchPlaceholder": "Search",
   "spaceCount": "{0} space(s)",
   "createSpace": "Create space",
   "backToHome": "Home",
@@ -34,7 +34,7 @@
   "network": "Network",
   "networks": "Networks",
   "skins": "Skins",
-  "members": "Гишүүнгүй | {count} гишүүн | {count} гишүүд",
+  "members": "No members | {count} member | {count} members",
   "editStrategy": "Edit strategy",
   "invalidProposals": "Invalid proposals",
   "account": "Account",
@@ -43,7 +43,7 @@
   "edit3box": "Edit profile on 3Box",
   "connectWallet": "Connect wallet",
   "toggleSkin": "Toggle skin",
-  "about": "Тухай",
+  "about": "About",
   "license": "License",
   "ipfsServer": "IPFS server",
   "hub": "Hub",
@@ -201,19 +201,19 @@
     "votingSystem": "Voting system"
   },
   "proposals": {
-    "header": "Асуулгууд",
-    "new": "Шинэ асуулга",
+    "header": "Proposals",
+    "new": "New proposal",
     "noProposals": "There aren't any proposals here yet!",
     "createProposal": "Create proposal",
     "showMore": "Show more",
     "showLess": "Show less",
     "states": {
-      "all": "Бүгд",
+      "all": "All",
       "core": "Core",
       "community": "Community",
       "active": "Active",
       "pending": "Pending",
-      "closed": "Хаагдсан"
+      "closed": "Closed"
     }
   },
   "settings": {
